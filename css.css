@@ -1,0 +1,272 @@
+body { overflow-x: hidden; }
+
+.retangulo{
+    z-index: -1;
+    width: 60%;
+    float: right;
+    position: relative;
+
+}
+.img1{
+    z-index: 1;
+    width: 50%;
+    float: right;
+    position: relative;  
+    top: -87vh;
+}
+.lado-esquerdo{
+    position: relative;
+    top: 24vh;
+    left: 5vw;
+}
+.h1{
+    font-size: 45px;
+        font-family: "Pangolin", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+.p{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.logo{
+    position: relative;
+    top: -20vh;
+}
+.botao{
+    width: 214px;
+    height: 61px;
+    background-color: #124C5F;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    transition: .4s;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: #124C5F0D;
+    position: relative;
+    top: 35vh;
+}
+.main1{
+    position: relative;
+    top: 15vh;
+    left: 50%;
+}
+.img2{
+    width: 50%;
+    position: relative;
+    top: -63vh;
+}
+.final{
+    position: relative;
+    top: 50vh;
+    display: flex;
+    left: 10vw;
+ 
+    
+   
+}
+li{
+    list-style: none;
+}
+.butt{
+    width: 300px;
+    height: 61px;
+    margin-bottom: 10px;
+    background-color: #124C5F;
+    border: none;
+    color: #fff;
+    transition: .4s;
+}
+.butt:hover{
+    background-color: #0a2e3a; 
+}
+.botao:hover{
+    background-color: #0a2e3a; 
+}
+
+.h3{
+    font-size: 30px;
+    font-family: "Pangolin", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media (max-width: 768px) {
+    .lado-direito {
+      display: none; /* Remove a div lado-direito */
+    }
+    body{
+        overflow-x: hidden;
+    }
+  
+    /* Ajustando o lado-esquerdo para ocupar toda a largura */
+    .lado-esquerdo {
+      position: relative;
+      top: 10vh;
+      left: -20px;
+      width: 100%; /* Ocupa 100% da largura */
+      text-align: center; /* Centraliza o conteúdo */
+      padding: 0 20px; /* Adiciona espaçamento interno */
+    }
+  
+    /* Ajustando os títulos */
+    .h1 {
+      font-size: 30px;
+    }
+  
+    /* Ajustando os parágrafos */
+    .p {
+      font-size: 16px;
+    }
+  
+    /* Ajustando botões */
+    .botao,
+    .butt {
+      width: 90%; /* Botões ocupam 90% da largura */
+      height: 50px;
+      margin: 10px auto; /* Centraliza os botões */
+    }
+  
+    /* Ajustando imagens */
+    .logo {
+      top: 0;
+      margin-bottom: 20px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .main1{
+        position: relative;
+        top: 50vh;
+        left: -5px;
+        width: 100%; /* Ocupa 100% da largura */
+        text-align: center; /* Centraliza o conteúdo */
+        
+    }
+   
+.img2{
+    position: relative;
+    top: -46%;
+    width: 100%;
+    left: -15px;
+}
+  
+    .img1 {
+      width: 100%; /* Imagens ocupam toda a largura */
+      position: relative;
+      top: 0;
+    }
+  
+    /* Ajustando a seção final */
+    .final {
+      flex-direction: column; /* Alinha os itens verticalmente */
+      top: 60vh; /* Reduz o espaçamento superior */
+      left: 0;
+      width: 100%;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .final ul {
+      margin-bottom: 20px; /* Espaçamento entre os cards */
+      width: 90%;
+      margin: 0 auto; /* Centraliza os cards */
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media (max-width: 480px) {
+    .lado-direito {
+      display: none; /* Remove a div lado-direito */
+    }
+    body{
+        overflow-x: hidden;
+    }
+  
+    /* Ajustando o lado-esquerdo para ocupar toda a largura */
+    .lado-esquerdo {
+      position: relative;
+      top: 10vh;
+      left: -20px;
+      width: 100%; /* Ocupa 100% da largura */
+      text-align: center; /* Centraliza o conteúdo */
+      padding: 0 20px; /* Adiciona espaçamento interno */
+    }
+  
+    /* Ajustando os títulos */
+    .h1 {
+      font-size: 30px;
+    }
+  
+    /* Ajustando os parágrafos */
+    .p {
+      font-size: 16px;
+    }
+  
+    /* Ajustando botões */
+    .botao,
+    .butt {
+      width: 90%; /* Botões ocupam 90% da largura */
+      height: 50px;
+      margin: 10px auto; /* Centraliza os botões */
+    }
+  
+    /* Ajustando imagens */
+    .logo {
+      top: 0;
+      margin-bottom: 20px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .main1{
+        position: relative;
+        top: 50vh;
+        left: -5px;
+        width: 100%; /* Ocupa 100% da largura */
+        text-align: center; /* Centraliza o conteúdo */
+        
+    }
+   
+.img2{
+    position: relative;
+    top: -37%;
+    width: 100%;
+    left: -15px;
+}
+  
+    .img1 {
+      width: 100%; /* Imagens ocupam toda a largura */
+      position: relative;
+      top: 0;
+    }
+  
+    /* Ajustando a seção final */
+    .final {
+      flex-direction: column; /* Alinha os itens verticalmente */
+      top: 60vh; /* Reduz o espaçamento superior */
+      left: 0;
+      width: 100%;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .final ul {
+      margin-bottom: 20px; /* Espaçamento entre os cards */
+      width: 90%;
+      margin: 0 auto; /* Centraliza os cards */
+      justify-content: center;
+      align-items: center;
+    }
+  }
