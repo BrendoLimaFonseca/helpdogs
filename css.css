@@ -1,5 +1,116 @@
 body { overflow-x: hidden; }
+.retangulo{
+  z-index: -1;
+  width: 60%;
+  float: right;
+  position: relative;
 
+}
+.img1{
+  z-index: 1;
+  width: 50%;
+  float: right;
+  position: relative;  
+  top: -81vh;
+}
+.lado-esquerdo{
+  position: relative;
+  top: 24vh;
+  left: 10vw;
+}
+.h1{
+  font-size: 45px;
+      font-family: "Pangolin", serif;
+      font-weight: 400;
+      font-style: normal;
+    
+    
+}
+.p{
+  font-size: 20px;
+  font-family: "Roboto", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+}
+.logo{
+  position: relative;
+  top: -20vh;
+}
+.botao{
+  width: 214px;
+  height: 61px;
+  background-color: #124C5F;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  transition: .4s;
+}
+.main{
+  width: 100%;
+  height: 600px;
+  background-color: #124C5F0D;
+  position: relative;
+  top: 50vh;
+}
+.main1{
+  position: relative;
+  top: 15vh;
+  left: 50%;
+}
+.img2{
+  width: 35%;
+  position: relative;
+  top: -40vh;
+}
+.final{
+  position: relative;
+  top: 70vh;
+  display: flex;
+ left: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+  
+ 
+}
+ul{
+  margin-inline: 5vw;
+}
+li{
+  list-style: none;
+}
+.butt{
+  width: 300px;
+  height: 61px;
+  margin-bottom: 10px;
+  background-color: #124C5F;
+  border: none;
+  color: #fff;
+  transition: .4s;
+}
+.butt:hover{
+  background-color: #0a2e3a; 
+}
+.botao:hover{
+  background-color: #0a2e3a; 
+}
+
+.h3{
+  font-size: 30px;
+  font-family: "Pangolin", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+@media (max-width: 1366px) {
 .retangulo{
     z-index: -1;
     width: 60%;
@@ -99,6 +210,20 @@ li{
     font-family: "Pangolin", serif;
     font-weight: 400;
     font-style: normal;
+}
+.final{
+  position: relative;
+  top: 50vh;
+  display: flex;
+ left: 23%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+  
+ 
+}
 }
 @media (max-width: 768px) {
     .lado-direito {
